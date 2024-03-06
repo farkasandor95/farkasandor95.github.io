@@ -3,3 +3,25 @@ body {
 	color: white;
 	font-size: 24px;
 }
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+div {
+	width: 85vw;
+	margin: auto;
+	text-align: start;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+.video {
+	text-align: center;
+}
+
+video {
+	width: 50%;
+}

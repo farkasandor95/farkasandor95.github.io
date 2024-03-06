@@ -1,12 +1,11 @@
 .leftMenu {
-	float: left;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	background-color: grey;
 	text-align: left;
 	width: 2vw;
-	height: 100%;
+	height: 100vh;
 	overflow: hidden;
 	transition: width 0.5s;
 	
@@ -17,6 +16,15 @@
 	p#hamburger {
 		text-align: center;
 		transform: rotate(90deg);
+	}
+	
+	ul {
+		list-style: none;
+		padding-left: 5%;
+		
+		li {
+			padding: 2.5%;
+		}
 	}
 }
 
@@ -34,11 +42,5 @@
 	
 	ul {
 		display: block;
-		list-style: none;
-		padding-left: 5%;
-		
-		li {
-			padding: 2.5%;
-		}
 	}
 }
