@@ -1,3 +1,13 @@
-body {
+h1, h2 {
 	text-align: center;
+}
+
+div {
+	width: 85vw;
+	margin: auto;
+	text-align: start;
+}
+
+ul {
+	list-style-position: inside;
 }
